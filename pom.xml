@@ -22,7 +22,7 @@
 
                     <!-- get all project dependencies -->
                     <descriptorRefs>
-                        <descriptorRef>war-with-dependencies</descriptorRef>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
                     </descriptorRefs>
 
                     <!-- MainClass in mainfest make a executable jar -->
