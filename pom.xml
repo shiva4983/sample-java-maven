@@ -4,7 +4,7 @@
     <name>My App</name>
     <version>1.0</version>
     <url>http://maven.apache.org</url>
-<!--     <packaging>jar</packaging> -->
+    <packaging>war</packaging>
 
     <properties>
         <java-version>1.8</java-version>
@@ -22,7 +22,7 @@
 
                     <!-- get all project dependencies -->
                     <descriptorRefs>
-                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                        <descriptorRef>war-with-dependencies</descriptorRef>
                     </descriptorRefs>
 
                     <!-- MainClass in mainfest make a executable jar -->
